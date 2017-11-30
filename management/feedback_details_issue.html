@@ -32,7 +32,7 @@
   						<tbody>
 							<tr>
 							<td width="35%">举报/反馈模块</td>
-							<td width="65%">资讯反馈</td>
+							<td width="65%">问答举报</td>
 							</tr>
 							<tr>
 							<td>举报/反馈用户ID</td>
@@ -40,7 +40,7 @@
 							</tr>
 							<tr>
 							<td>被举报/反馈对象</td>
-							<td><a href="#" data-type="text" class="editable editable-click editable-empty">XXX资讯</a>
+							<td><a href="#" data-type="text" class="editable editable-click editable-empty">XXXX是什么体验-XXX的回答</a>
               </td>
               </tr>
               <tr>
@@ -57,13 +57,37 @@
   				</div>
   				</div>
   			</div>
-  		    <div class="col-md-7">
-        		<div class="content-box-large">
-  				<div class="panel-heading">
-					<div class="panel-title">如果是资讯的执行处理暂时想到这样，其他的还没想</div>
-				</div>
-  				<div class="panel-body">
+  		<div class="col-md-7">
+        <div class="content-box-large">
+          <div class="panel-heading">
+                 <div class="panel-title">处理操作</div>
+          </div>
+          <div class="panel-body">
             <form class="form-horizontal" action="">
+              <div class="form-group">
+                      <label class="col-md-2 control-label" for="select-1">处理回应</label>
+                      <div class="col-md-10">
+
+                        <select class="form-control" id="select-1">
+                          <option>删除</option>
+                        </select>
+                      </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-danger">确认</button>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        		<div class="content-box-large">
+      				<div class="panel-heading">
+    					       <div class="panel-title">处理回应</div>
+				      </div>
+  				    <div class="panel-body">
+                <form class="form-horizontal" action="">
               <div class="form-group">
                       <label class="col-md-2 control-label" for="select-1">处理回应</label>
                       <div class="col-md-10">
@@ -88,8 +112,8 @@
                   </div>
               </div>
             </form>
-  				</div>
-  			</div>
+  				    </div>
+  			   </div>
   		</div>
     	</div>
     </div>
